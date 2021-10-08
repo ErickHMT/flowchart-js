@@ -1,8 +1,8 @@
 import AppController from './src/appController.js';
-import DraggableItems from './src/draggableItems.js';
+import CanvasManager from './src/canvasManager.js';
 
 const appController = new AppController({
-    draggableItems: new DraggableItems
+    canvasManager: new CanvasManager
 });
 
 appController.initialize();

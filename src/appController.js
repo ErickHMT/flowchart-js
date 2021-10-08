@@ -1,9 +1,9 @@
 export default class AppController {
-    constructor({ draggableItems }) {
-        this.draggableItems = draggableItems;
+    constructor({ canvasManager }) {
+        this.canvasManager = canvasManager;
     }
 
     initialize() {
-        // this.draggableItems.initialize();
+        this.canvasManager.initialize();
     }
 }

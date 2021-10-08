@@ -1,94 +1,18 @@
 *, *:before, *:after {
     box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
 
 body {
     padding: 0;
     margin: 0;
-    color: rgb(26, 26, 26);
-    background:rgb(233, 233, 233);
-}
-
-a {
-    color: rgb(26, 26, 26);
-}
-
-.wrapper .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 0px 20px;
-    width: 250px;
     height: 100%;
-    background: #FFF;
-}
-
-.dropzone {
-    position: absolute;
     overflow: hidden;
-    left: 250px;
-    background: #c1c1c1;
-    margin: 20px;
-    border-radius: 20px;
-    height: calc(100vh - 40px);
-    width: calc(100vw - 290px);
 }
 
-.card-list {
-    padding: 0;
-    margin: 0; 
+#canvas {
     width: 100%;
-}
-
-.card {
-    padding: 10px;
-    margin: 10px;
-    max-width: 200px;
-    cursor: move;
-    transition: all .1s ease;
-    border-left: 2px solid #d9d9d9;
-    background: #FFF;
-    display: inline-block;
-}
-
-.card:hover {
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
-}
-
-.card-content {
-    pointer-events: none;
-}
-
-.card p {
-    font-size: .8rem;
-    margin: 0;
-    color: rgb(133, 133, 133);
-}
-
-.is-dragging {
-    cursor: move;
-    opacity: .3;
-    border: 4px solid #ccc;
-}
-
-.selected {
-    display: block;
-    margin: 20px auto;
-}
-
-.dropzone-empty {
-    display: inline-block;
-    margin: 10px;
-    border: solid 3px #9c9c9c;
-}
-
-.hovered {
-    border-style: dashed;
-}
-
-.invisible {
-    display: none;
-}
+    height: 100%;
+    background: #c5cad6;
+  }
+  
