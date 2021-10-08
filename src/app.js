@@ -1,5 +1,5 @@
-import AppController from './src/appController.js';
-import CanvasManager from './src/canvasManager.js';
+import AppController from './appController.js';
+import CanvasManager from './canvasManager.js';
 
 const appController = new AppController({
     canvasManager: new CanvasManager
